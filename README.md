@@ -69,19 +69,19 @@ Now your backend should be running on 👉 ://localhost:5000
 
 You can build your backend by following these guidelines:
 
-Controllers → Write the business logic for your API endpoints here.
+- Controllers → Write the business logic for your API endpoints here.
 
-Routes → Define endpoints and link them with controllers.
+- Routes → Define endpoints and link them with controllers.
 
-Models → Create database schemas/models (e.g., User.js, Product.js).
+- Models → Create database schemas/models (e.g., User.js, Product.js).
 
-Middleware → Implement request handling logic (e.g., authentication, logging).
+- Middleware → Implement request handling logic (e.g., authentication, logging).
 
-Services → Place reusable logic like email services, external API calls.
+- Services → Place reusable logic like email services, external API calls.
 
-Utils → Helper functions (e.g., formatDate.js, generateToken.js).
+- Utils → Helper functions (e.g., formatDate.js, generateToken.js).
 
-DB → Keep your database connection setup here.
+- DB → Keep your database connection setup here.
 
 🗄️ Database Setup
 🔹 MongoDB (Mongoose)
@@ -192,28 +192,28 @@ module.exports = User;
 
 📦 Scripts
 
-npm start → Start the server
+- npm start → Start the server
 
-npm run dev → Start with nodemon (auto-restart on file changes)
+- npm run dev → Start with nodemon (auto-restart on file changes)
 
-npm run lint → Run linter (if configured)
+- npm run lint → Run linter (if configured)
 
-npm run format → Format code using Prettier
+- npm run format → Format code using Prettier
 
 🤝 Contributing
 
 Contributions are welcome! 🎉
 If you’d like to improve this boilerplate:
 
-Fork the repository
+1. Fork the repository
 
-Create a new branch (feature/your-feature)
+2. Create a new branch (feature/your-feature)
 
-Commit your changes
+3. Commit your changes
 
-Push the branch
+4. Push the branch
 
-Open a Pull Request
+5. Open a Pull Request
 
 📜 License
 
