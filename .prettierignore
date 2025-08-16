@@ -1,0 +1,43 @@
+# Version control & dependencies
+.git/
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Lockfiles (usually don't need to format these)
+package-lock.json
+
+# TypeScript declarations
+*.d.ts
+
+# Test coverage and reports
+coverage/
+reports/
+
+# Environment and local files
+.env*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache files
+.cache/
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Static assets in public directory
+public/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
