@@ -7,7 +7,7 @@ Whether you’re building a REST API, microservice, or a full-stack app backend,
 
 📂 Project Structure
 
-```http
+```
 
 BACKEND/
 │── controllers/     # Route handlers - business logic for APIs
@@ -33,21 +33,21 @@ BACKEND/
 ⚡ Getting Started
 1️⃣ Clone the Repository
 
-```http
-git clone https://github.com/your-username/express-backend-boilerplate.git
+```
+git clone s://github.com/your-username/express-backend-boilerplate.git
 cd express-backend-boilerplate
 ```
 
 2️⃣ Install Dependencies
 
-```http
+```
 npm install
 ```
 
 3️⃣ Configure Environment Variables
 Create a .env file in the root directory and add your environment variables:
 
-```http
+```
 PORT=5000
 DB_URI=mongodb://localhost:27017/mydb   # For MongoDB
 DB_HOST=localhost                       # For SQL
@@ -58,12 +58,12 @@ JWT_SECRET=your-secret-key
 ```
 4️⃣ Start the Server
 
-```http
+```
 npm start
 ```
 
 
-Now your backend should be running on 👉 http://localhost:5000
+Now your backend should be running on 👉 ://localhost:5000
 
 🛠️ How to Use This Boilerplate
 
@@ -88,13 +88,13 @@ DB → Keep your database connection setup here.
 
 Install Mongoose
 
-```http
+```
 npm install mongoose
 ```
 
 db/mongo.js
 
-```http
+```
 const mongoose = require("mongoose");
 
 const connectDB = async () => {
@@ -115,7 +115,7 @@ module.exports = connectDB;
 
 models/User.js
 
-```http
+```
 
 const mongoose = require("mongoose");
 
@@ -133,13 +133,13 @@ module.exports = mongoose.model("User", userSchema);
 
 Install Sequelize + Driver (example: MySQL)
 
-```http
+```
 npm install sequelize mysql2
 ```
 
 db/sql.js
 
-```http
+```
 const { Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize(
@@ -167,7 +167,7 @@ module.exports = { sequelize, connectDB };
 
 models/User.js
 
-```http
+```
 const { DataTypes } = require("sequelize");
 const { sequelize } = require("../db/sql");
 
